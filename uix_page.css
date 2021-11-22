@@ -119,7 +119,18 @@ a:hover {
     }
 } */
 
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
 
+.wrapper {
+    margin-right: auto; 
+    margin-left: auto; 
+    max-width: 1600px; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+    }
 
 .navbar{
     /* overflow: hidden; */
