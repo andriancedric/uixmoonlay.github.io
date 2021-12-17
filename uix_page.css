@@ -9,6 +9,14 @@ html{
     scroll-behavior : smooth;
 }
 
+.wrapper {
+    background: url("Background 2.svg");
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    margin-left: -10px;
+    overflow: hidden;
+}
+
 .contact{
     height : 1.5em;
     width : 1.5em;
@@ -17,10 +25,14 @@ html{
 .home{
    height: 100vh;
    width: 100vw;
+   margin-left: 10vw;
+   margin-right: 10vw;
+   margin-top: 10vh;
+   margin-bottom: 10vh;
 }
 
 .about{
-    height : 100vh;
+    height : 200vh;
     width: 100vw;   
 }
 
@@ -123,6 +135,7 @@ a:hover {
     max-width: 100%;
     height: auto;
 }
+
 
 .wrapper {
     margin-right: auto; 
